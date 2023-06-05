@@ -12,6 +12,7 @@ public:
     std::string toString();
     friend int operator +(Cafetera &c1,Cafetera &c2);
     friend int operator +(int num,Cafetera &c);
+    friend bool operator >(Cafetera &c1,Cafetera &c2);
 };
 
 #endif

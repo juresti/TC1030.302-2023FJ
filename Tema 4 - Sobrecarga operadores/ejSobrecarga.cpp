@@ -16,5 +16,8 @@ int main(int argc, char const *argv[])
     int total = c1 + c2 + c3 + c4;
     cout << "Tus tres cafeteras pueden hacer " << total <<
         " tazas por minuto" << endl;
+
+    if (c1 > c4) cout << "La cafetera 1 tiene mayor capacidad que la cafetera 2\n";
+    else cout << "La cafetera 2 tiene mayor capacidad que la cafetera 1\n";
     return 0;
 }

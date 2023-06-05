@@ -18,3 +18,7 @@ int operator +(Cafetera &c1,Cafetera &c2){
 int operator +(int num,Cafetera &c){
     return num + c.tazasXMin;
 }
+
+bool operator >(Cafetera &c1,Cafetera &c2){
+    return c1.capacidad > c2.capacidad;
+}
